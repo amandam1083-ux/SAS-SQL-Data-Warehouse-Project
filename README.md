@@ -9,13 +9,13 @@ highlights industry best practices in data engineering and analytics.
 
 ## Project requirements
 
-## Building the Data Warehouse (Data Engineering)
+### Building the Data Warehouse (Data Engineering)
 
-Objective:
+#### Objective:
 
 Develop a modern data warehouse using SAS/SQL to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-####Specifications
+#### Specifications
 - **Data Sources**: Import data from two sources (ERP and CRM) provided as csv files.
 - **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
 - **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
@@ -25,9 +25,9 @@ Develop a modern data warehouse using SAS/SQL to consolidate sales data, enablin
 
 ----
 
-##BI: Analytics & Reporting (Data Analytics)
+### BI: Analytics & Reporting (Data Analytics)
 
-####Objective
+#### Objective
 
 Develop SQL-based analytics to deliver detailed insights into:
 -**Customer Behavior**
