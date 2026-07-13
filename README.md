@@ -12,6 +12,7 @@ highlights industry best practices in data engineering and analytics.
 ###Building the Data Warehouse (Data Engineering)
 
 ####Objective
+
 Develop a modern data warehouse using SAS/SQL to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 ######Specifications
@@ -27,6 +28,7 @@ Develop a modern data warehouse using SAS/SQL to consolidate sales data, enablin
 ####BI: Analytics & Reporting (Data Analytics)
 
 ####Objective
+
 Develop SQL-based analytics to deliver detailed insights into:
 -**Customer Behavior**
 -**Product Performance**
