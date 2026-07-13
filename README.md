@@ -27,7 +27,7 @@ Develop a modern data warehouse using SAS/SQL to consolidate sales data, enablin
 
 ### BI: Analytics & Reporting (Data Analytics)
 
-#### Objective
+#### Objective:
 
 Develop SQL-based analytics to deliver detailed insights into:
 -**Customer Behavior**
