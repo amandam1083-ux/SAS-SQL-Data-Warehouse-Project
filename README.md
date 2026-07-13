@@ -7,11 +7,11 @@ highlights industry best practices in data engineering and analytics.
 ----
 
 
-##Project requirements
+## Project requirements
 
-##Building the Data Warehouse (Data Engineering)
+## Building the Data Warehouse (Data Engineering)
 
-####Objective
+Objective:
 
 Develop a modern data warehouse using SAS/SQL to consolidate sales data, enabling analytical reporting and informed decision-making.
 
