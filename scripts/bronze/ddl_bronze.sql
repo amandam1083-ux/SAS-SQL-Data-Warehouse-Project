@@ -13,7 +13,7 @@ If OBJECT_ID ('bronze.crm_cust_info' , 'U') IS NOT NULL
 	Drop Table bronze.crm_cust_info;
 
 Create table bronze.crm_cust_info (
-cst_is INT,
+cst_id INT,
 cst_key NVARCHAR(50),
 cst_firstname NVARCHAR(50),
 cst_lastname NVARCHAR(50),
