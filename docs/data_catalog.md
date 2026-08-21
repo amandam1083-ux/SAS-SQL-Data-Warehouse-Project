@@ -1,11 +1,11 @@
-#Data Dictionary for Gold Layer#
-
-  ##Overview
-
+# Data Dictionary for Gold Layer#
+--
+  ## Overview
+--
   The Gold Layer is the business_level data representation, structured to support analytical and reporting use cases. 
   It consists of dimension tables and fact tables for specific business metrics.
 
-  ###1. gold.dim_customers
+  ### 1. gold.dim_customers
   *Purpose: Store customer details enriched with demographic and geographic data.
   *Columns:
     Column Name	Data Type	Description
@@ -20,7 +20,7 @@
     birthdate	NVARCHAR(50)	The date of birth of the cusomter, formatted as YYYY-MM-DD (e.g. 1971-10-06)
     create_date	NVARCHAR(50)	The date and time when the customer record was created in the system.
 
-###2. gold.dim_products
+### 2. gold.dim_products
 *Purpose: Provides information about the products and their attributes.
 *Columns:
 Column Name	Data Type	Description
@@ -37,7 +37,7 @@ product_line	NVARCHAR(50)	The specific product line or series to which the produ
 start_date	DATE	The date when the product became available for sale or use, stored in.
 
 
-###3. gold.fact_sales
+### 3. gold.fact_sales
 *Purpose: Stores transactional sales data for analytical purposes.
 *Columns:
 Column Name	Data Type	Description
