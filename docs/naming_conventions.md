@@ -19,6 +19,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 * <entity>: Exact table name from the source system.
 * Example: crm_customer_info → Customer information from the CRM system.
 ### Gold Rules
+
 # All names must use meaningful, business-aligned names for tables, starting with the category prefix.
 # <category>_<entity>
 # <category>: Describes the role of the table, such as dim (dimension) or fact (fact table).
