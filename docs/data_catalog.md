@@ -42,7 +42,6 @@
 |	cost	|	INT	|	The cost or base price of the product, measured in monetary units.	|
 |	product_line	|	NVARCHAR(50)	|	The specific product line or series to which the product belongs (e.g. ‘Road’, ‘Mountain’)	|
 |	start_date	|	DATE	|	The date when the product became available for sale or use, stored in.	|
-<img width="561" height="3810" alt="image" src="https://github.com/user-attachments/assets/6141b38f-f6ba-4c80-9c86-f4df11a02f78" />
 
 
 
