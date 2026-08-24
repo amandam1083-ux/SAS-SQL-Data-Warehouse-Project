@@ -39,12 +39,9 @@ Select
   group by product_key
   having count(*)>1;
 
---=============================================
---Create View gold.fact_sales
---=============================================
-
-
-
+-- ====================================================================
+-- Checking 'gold.fact_sales'
+-- ====================================================================
 --Foreign key integrity (Dimensions)  
 --expection zero
 Select * 
@@ -58,3 +55,13 @@ from gold.fact_sales f
 left join gold.dim_products p
 on p.product_key = f.product_key
 where p.product_key is null
+
+
+-- Check the data model connectivity between fact and dimensions
+SELECT * 
+FROM gold.fact_sales f
+LEFT JOIN gold.dim_customers c
+ON c.customer_key = f.customer_key
+LEFT JOIN gold.dim_products p
+ON p.product_key = f.product_key
+WHERE p.product_key IS NULL OR c.customer_key IS NULL 
