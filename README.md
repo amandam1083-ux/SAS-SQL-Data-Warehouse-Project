@@ -37,3 +37,11 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ---
+
+#### Inspiration:
+This project was based on the video lesson SQL Data Warehouse from Scratch | Full Hands‑On Data Engineering Project by Data with Baraa, available on YouTube at: https://www.youtube.com/watch?v=9GVqKuTVANE&t=4205s
+
+
+
+# About Me
+I’m Amanda Mitchell, a data scientist focused on expanding my technical expertise. I built this data‑warehouse project to deepen my understanding of ETL processes, data modeling, and data architecture, and to sharpen the SQL skills I don’t often use in my day‑to‑day work.
